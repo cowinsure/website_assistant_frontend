@@ -71,7 +71,7 @@ const Assistant: React.FC = () => {
   // Effect to set session ID on mount
   useEffect(() => {
     // Generate a unique session ID for the user
-    setSessionId(crypto.randomUUID());
+    setSessionId(Math.random().toString(36).substring(2, 15));
   }, []);
 
   useEffect(() => {
