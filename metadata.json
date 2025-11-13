@@ -1,0 +1,7 @@
+{
+  "name": "AI Web Assistant",
+  "description": "A modular and interactive AI web assistant component. Users can engage in natural language conversations with an AI agent through voice, receiving real-time audio responses and transcriptions.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
