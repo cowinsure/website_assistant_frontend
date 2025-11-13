@@ -118,7 +118,7 @@ const Assistant: React.FC = () => {
       console.log(requestbody);
 
 
-      const response = await fetch('http://nswebassistant.site:3000/widget/chat', {
+      const response = await fetch('https://api.nswebassistant.site/widget/chat', {
           method: 'POST',
           headers: {
               'x-api-key':  tenantApiKey,
