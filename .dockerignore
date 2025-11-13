@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env*
+.git
+.gitignore
+README.md
+.vscode
+dist
+build
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+Dockerfile
+docker-compose.yml
